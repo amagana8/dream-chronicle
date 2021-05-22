@@ -9,9 +9,17 @@ import SwiftUI
 
 @main
 struct DreamLogApp: App {
+    @ObservedObject private var data = DreamData()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                DreamsView(dreams: $data.dreams) {
+                    data.save()
+                }
+            }
+            .onAppear() {
+                data.load()
+            }
         }
     }
 }

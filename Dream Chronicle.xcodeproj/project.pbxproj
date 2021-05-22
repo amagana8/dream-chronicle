@@ -7,19 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		134841F22652121200FF5201 /* DreamData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134841F12652121200FF5201 /* DreamData.swift */; };
+		1359313D264F457500E91A28 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1359313C264F457500E91A28 /* DetailView.swift */; };
+		13593143264F7ABE00E91A28 /* Edit View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13593142264F7ABE00E91A28 /* Edit View.swift */; };
+		1377DD242658783900CB1F94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1377DD232658783900CB1F94 /* Assets.xcassets */; };
 		1388FA47264B7FB1004E5E44 /* DreamLogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1388FA46264B7FB1004E5E44 /* DreamLogApp.swift */; };
-		1388FA49264B7FB1004E5E44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1388FA48264B7FB1004E5E44 /* ContentView.swift */; };
-		1388FA4B264B7FB2004E5E44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1388FA4A264B7FB2004E5E44 /* Assets.xcassets */; };
+		1388FA49264B7FB1004E5E44 /* DreamsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1388FA48264B7FB1004E5E44 /* DreamsView.swift */; };
 		1388FA4E264B7FB2004E5E44 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1388FA4D264B7FB2004E5E44 /* Preview Assets.xcassets */; };
+		13A6EF7E2658637E004D8E18 /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A6EF7D2658637E004D8E18 /* Color+Codable.swift */; };
+		13D7375B264CA22900763F56 /* Dream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D7375A264CA22900763F56 /* Dream.swift */; };
+		13D7375F264CA86300763F56 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D7375E264CA86300763F56 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1388FA43264B7FB1004E5E44 /* DreamLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		134841F12652121200FF5201 /* DreamData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamData.swift; sourceTree = "<group>"; };
+		1359313C264F457500E91A28 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		13593142264F7ABE00E91A28 /* Edit View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Edit View.swift"; sourceTree = "<group>"; };
+		1377DD232658783900CB1F94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		1388FA43264B7FB1004E5E44 /* Dream Chronicle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dream Chronicle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1388FA46264B7FB1004E5E44 /* DreamLogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamLogApp.swift; sourceTree = "<group>"; };
-		1388FA48264B7FB1004E5E44 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1388FA4A264B7FB2004E5E44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1388FA48264B7FB1004E5E44 /* DreamsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamsView.swift; sourceTree = "<group>"; };
 		1388FA4D264B7FB2004E5E44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1388FA4F264B7FB2004E5E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13A6EF7D2658637E004D8E18 /* Color+Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Color+Codable.swift"; path = "../../../../.Trash/Color+Codable.swift"; sourceTree = "<group>"; };
+		13D7375A264CA22900763F56 /* Dream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dream.swift; sourceTree = "<group>"; };
+		13D7375E264CA86300763F56 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +56,7 @@
 		1388FA44264B7FB1004E5E44 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1388FA43264B7FB1004E5E44 /* DreamLog.app */,
+				1388FA43264B7FB1004E5E44 /* Dream Chronicle.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,11 +64,15 @@
 		1388FA45264B7FB1004E5E44 /* DreamLog */ = {
 			isa = PBXGroup;
 			children = (
+				13D73759264CA20D00763F56 /* Models */,
 				1388FA46264B7FB1004E5E44 /* DreamLogApp.swift */,
-				1388FA48264B7FB1004E5E44 /* ContentView.swift */,
-				1388FA4A264B7FB2004E5E44 /* Assets.xcassets */,
+				1388FA48264B7FB1004E5E44 /* DreamsView.swift */,
+				1359313C264F457500E91A28 /* DetailView.swift */,
+				1377DD232658783900CB1F94 /* Assets.xcassets */,
 				1388FA4F264B7FB2004E5E44 /* Info.plist */,
 				1388FA4C264B7FB2004E5E44 /* Preview Content */,
+				13D7375E264CA86300763F56 /* CardView.swift */,
+				13593142264F7ABE00E91A28 /* Edit View.swift */,
 			);
 			path = DreamLog;
 			sourceTree = "<group>";
@@ -69,12 +85,22 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		13D73759264CA20D00763F56 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				13D7375A264CA22900763F56 /* Dream.swift */,
+				13A6EF7D2658637E004D8E18 /* Color+Codable.swift */,
+				134841F12652121200FF5201 /* DreamData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1388FA42264B7FB1004E5E44 /* DreamLog */ = {
+		1388FA42264B7FB1004E5E44 /* Dream Chronicle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1388FA52264B7FB2004E5E44 /* Build configuration list for PBXNativeTarget "DreamLog" */;
+			buildConfigurationList = 1388FA52264B7FB2004E5E44 /* Build configuration list for PBXNativeTarget "Dream Chronicle" */;
 			buildPhases = (
 				1388FA3F264B7FB1004E5E44 /* Sources */,
 				1388FA40264B7FB1004E5E44 /* Frameworks */,
@@ -84,9 +110,9 @@
 			);
 			dependencies = (
 			);
-			name = DreamLog;
+			name = "Dream Chronicle";
 			productName = DreamLog;
-			productReference = 1388FA43264B7FB1004E5E44 /* DreamLog.app */;
+			productReference = 1388FA43264B7FB1004E5E44 /* Dream Chronicle.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +129,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1388FA3E264B7FB1004E5E44 /* Build configuration list for PBXProject "DreamLog" */;
+			buildConfigurationList = 1388FA3E264B7FB1004E5E44 /* Build configuration list for PBXProject "Dream Chronicle" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,7 +142,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1388FA42264B7FB1004E5E44 /* DreamLog */,
+				1388FA42264B7FB1004E5E44 /* Dream Chronicle */,
 			);
 		};
 /* End PBXProject section */
@@ -126,8 +152,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1377DD242658783900CB1F94 /* Assets.xcassets in Resources */,
 				1388FA4E264B7FB2004E5E44 /* Preview Assets.xcassets in Resources */,
-				1388FA4B264B7FB2004E5E44 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +164,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1388FA49264B7FB1004E5E44 /* ContentView.swift in Sources */,
+				13593143264F7ABE00E91A28 /* Edit View.swift in Sources */,
+				1359313D264F457500E91A28 /* DetailView.swift in Sources */,
+				13A6EF7E2658637E004D8E18 /* Color+Codable.swift in Sources */,
+				1388FA49264B7FB1004E5E44 /* DreamsView.swift in Sources */,
 				1388FA47264B7FB1004E5E44 /* DreamLogApp.swift in Sources */,
+				13D7375F264CA86300763F56 /* CardView.swift in Sources */,
+				134841F22652121200FF5201 /* DreamData.swift in Sources */,
+				13D7375B264CA22900763F56 /* Dream.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +300,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"DreamLog/Preview Content\"";
+				DEVELOPMENT_TEAM = V39AA865RB;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DreamLog/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -276,7 +310,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.amagana8.DreamLog;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amagana8.dreamlog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -289,7 +324,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"DreamLog/Preview Content\"";
+				DEVELOPMENT_TEAM = V39AA865RB;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DreamLog/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -297,7 +334,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.amagana8.DreamLog;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amagana8.dreamlog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,7 +345,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1388FA3E264B7FB1004E5E44 /* Build configuration list for PBXProject "DreamLog" */ = {
+		1388FA3E264B7FB1004E5E44 /* Build configuration list for PBXProject "Dream Chronicle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1388FA50264B7FB2004E5E44 /* Debug */,
@@ -316,7 +354,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1388FA52264B7FB2004E5E44 /* Build configuration list for PBXNativeTarget "DreamLog" */ = {
+		1388FA52264B7FB2004E5E44 /* Build configuration list for PBXNativeTarget "Dream Chronicle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1388FA53264B7FB2004E5E44 /* Debug */,
